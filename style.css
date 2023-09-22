@@ -130,6 +130,7 @@ html {
   font-family: 'Roboto', sans-serif;
   /* font-size: clamp(0.7rem, 1vw + 0.5rem, 2rem); */
   /* font-size: clamp(0.85rem, 1.6vw, 2rem); */
+  font-size: 1.4rem;
   position: absolute;
   left: 10vw;
   right: 10vw;
@@ -141,64 +142,64 @@ html {
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 915px) {
+/* @media screen and (min-width: 915px) {
   .about {
     font-size: clamp(0.7rem, 1vw + 0.5rem, 2rem);
   }
-}
+} */
 
 /*TABLET*/
-@media screen and (min-width: 601px) and (max-width: 914px) {
+/* @media screen and (min-width: 601px) and (max-width: 914px) {
   .about {
     font-size: clamp(10px, 4vh, 30px);
   }
-}
+} */
 
 
-@media screen and (min-width: 760px) and (max-width: 821px) and (min-height: 1020px) and (max-height: 1190px) { /*Ipad*/
-  .about {
+/* @media screen and (min-width: 760px) and (max-width: 821px) and (min-height: 1020px) and (max-height: 1190px) { */ /*Ipad*/
+ /*  .about {
     font-size: clamp(6px, 4vh, 22px);
   }
-}
+} */
 
 
 
 /*MOBILE*/
-@media screen and (max-width: 281px) {   /*Galaxy fold*/
-  .about {
+/* @media screen and (max-width: 281px) { */   /*Galaxy fold*/
+ /*  .about {
     font-size: clamp(6px, 3.2vh, 11.3px);
   }
-}
+} */
 
-@media screen and (min-width: 374px) and (max-width: 600px) and (max-height: 679px){ /* Iphone SE*/
-  .about {
+/* @media screen and (min-width: 374px) and (max-width: 600px) and (max-height: 679px){ */ /* Iphone SE*/
+ /*  .about {
     font-size: clamp(5px, 3vh, 13px);
   }
 }
 
-@media screen and (min-width: 280px) and (max-width: 374px){ /* TRY*/
+@media screen and (min-width: 280px) and (max-width: 374px){ 
   .about {
     font-size: clamp(3px, 3.8vw, 12px);
   }
-}
+} */
 
-@media screen and (min-width: 282px) and (max-width: 379px) and (min-height: 680px){ /* Galaxy S8*/
-  .about {
+/* @media screen and (min-width: 282px) and (max-width: 379px) and (min-height: 680px){ */ /* Galaxy S8*/
+  /* .about {
     font-size: clamp(5px, 3.5vh, 13.5px);
   }
-}
+} */
 
-@media screen and (min-width: 380px) and (max-width: 600px) and (min-height: 680px){
+/* @media screen and (min-width: 380px) and (max-width: 600px) and (min-height: 680px){
   .about {
     font-size: clamp(10px, 3.5vh, 15.5px);
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 520px) and (min-height: 820px){
+@media screen and (min-width: 400px) and (max-width: 600px) and (min-height: 820px){
   .about {
     font-size: clamp(3.5vw, 1rem, 18vw);
   }
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .about-animation {
