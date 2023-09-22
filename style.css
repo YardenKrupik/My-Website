@@ -194,6 +194,12 @@ html {
   }
 }
 
+@media screen and (min-width: 400px) and (max-width: 520px) and (min-height: 820px){
+  .about {
+    font-size: clamp(10px, 4vh, 16px);
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .about-animation {
     animation: fade 1s ease forwards;
