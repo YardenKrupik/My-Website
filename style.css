@@ -196,7 +196,7 @@ html {
 
 @media screen and (min-width: 400px) and (max-width: 520px) and (min-height: 820px){
   .about {
-    font-size: clamp(10px, 4vh, 16px);
+    font-size: clamp(3.5vw, 1rem, 18vw);
   }
 }
 
