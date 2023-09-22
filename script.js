@@ -15,7 +15,6 @@ $(window).on('scroll', function() {
         } else if (rotateSpeed >= 90) {
           rotateSpeed = 90;
         }
-        /* $(this).find(".pixel-counter").html(distanceBottom + "px is the parents bottom-               distance to top of viewport"); */
         $(this).css({
           "transform": " translateY(0px)  rotateX(" + rotateSpeed + "deg)",
           "opacity": opacity
