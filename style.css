@@ -114,6 +114,42 @@ html {
   /* animation: fade 1s ease forwards; */
 }
 
+.cv {
+  /* font-size: clamp(1rem, 1vw + 1.5rem, 1.3rem); */
+  background-color: white;
+  position: absolute;
+  left: 70vw;
+  top: 1vh;
+  width: 12vw;
+  border-style: hidden;
+  border-radius: 0.7rem;
+}
+@media screen and (max-width: 750px) {
+  .cv {
+    width: clamp(30vw, 2vw + 0.3rem, 2vw);
+    left: 50vw;
+    top: -1vh;
+  }
+}
+
+.cvText{
+  font-family: 'Roboto', sans-serif;
+  font-size:  clamp(0.2rem, 1vw + 0.5rem, 1.9rem);
+  text-align: center;
+}
+@media screen and (max-width: 750px) {
+  .cvText {
+    font-size: calc(16px + 0.390625vw);
+    text-align: center;
+  }
+}
+
+.cv:hover {
+  background-color: rgba(43, 95, 190, 0.938);
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
 .about-title {
   font-family: 'Roboto', sans-serif;
   font-size: clamp(1rem, 1vw + 1.5rem, 3rem);
